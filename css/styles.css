@@ -85,45 +85,27 @@ body {
 
 /*navigation sector*/
 
-/* .navigation {
-  font-weight: 500;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-  outline: 1px solid red;
-  align-items: baseline; */
-
 .logo {
-  font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #2196f3;
   margin-right: 93px;
-  width: 145px;
-  height: 31px;
-  margin-top: 24px;
 }
 .logo-second-part {
   color: #000000;
 }
 
-/* .navigation-list {
-  margin: auto;
-  margin-top: 32px;
-  padding-left: 0px;
-  margin-bottom: 32px; */
-
 .navigation-item {
   display: block;
   color: var(--main-color);
-  background-color: tomato;
   margin-left: 0px;
   padding-top: 32px;
   padding-bottom: 32px;
 }
 .header .nav-item:not(:last-child) {
-  padding-right: 50px;
+  margin-right: 50px;
 }
 
 .navigation-item:focus {
@@ -136,7 +118,6 @@ body {
   color: var(--active-color);
 }
 .contacts-list {
-  outline: 1px solid red;
   margin-left: auto;
 }
 
