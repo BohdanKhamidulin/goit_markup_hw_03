@@ -12,8 +12,10 @@ h3,
 h4,
 h5,
 h6,
-p {
+p,
+ul {
   margin: 0 auto;
+  padding: 0 auto;
 }
 img {
   display: block;
@@ -38,8 +40,8 @@ button {
 }
 /*body portfolio*/
 body {
-  width: 1600px;
-  height: 2346px;
+  /* width: 1600px; */
+  min-height: 2346px;
   font-family: 'Roboto', sans-serif;
   color: var(--main-color);
   background-color: var(--main-backgraund-color);
@@ -236,8 +238,7 @@ body {
   text-align: center;
   /* margin-top: 30px; */
 }
-.specialist-name:not(:last-child) {
-  margin-right: 30px;
+
 }
 .command-list {
   display: flex;
